@@ -1,5 +1,6 @@
 a = int(input())
-if a >= 10 and a < 20:
-    print("yes")
+
+if 10 <= a and a <= 20:
+	print("yes")
 else:
-    print("no")
+	print("no")
