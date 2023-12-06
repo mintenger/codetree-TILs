@@ -12,4 +12,4 @@ else:
     elif c > b:
         print(b)
     else:
-        prit(c)
+        print(c)
