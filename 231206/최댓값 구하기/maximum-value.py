@@ -1,8 +1,8 @@
 a, b, c = map(int, input().split(" "))
 if a >= b:
-    if b >= c:
+    if a >= c:
         print(a)
-    else: 
+    else:
         print(c)
 else:
     if b >= c:
