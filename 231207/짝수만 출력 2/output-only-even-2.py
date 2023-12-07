@@ -1,7 +1,7 @@
-a, b = map(int, input().split())
+b, a = map(int, input().split())
 
-i = a
-while i >= b:
+i = b
+while i >= a:
     if i % 2 == 0:
         print(i, end=" ")
     i -= 1
